@@ -2,11 +2,158 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sobre Mi</title>
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <title>Document</title>
+
 </head>
-<body>
-    <h1>Proyecto M1 Henry Santiago cabral</h1>
+<body id="top">
+    
+    <header class="encabezado">
+        <div class="contenedor">
+            <a href="#" class="logo">
+                <img src="asset/logo.png" alt="">
+            </a>
+
+            <nav class="nav_menu">
+                <ul class="nav_lista">
+                    <li>
+                       <a href="#sobre-mi" class="nav_link">sobre-mi</a>
+                    </li>
+                    <li>
+                       <a href="#tecnologias" class="nav_link">tecnologiass</a>
+                    </li>
+                    <li>
+                       <a href="#actividades" class="nav_link">Actividades</a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="sobre-mi" id="sobre-mi">
+            <div class="contenedor sobre-mi-contenedor">
+                <div class="sobre-mi_content">
+                    <h2 class="sobre-mi_title">
+                        Sobre mi
+                    </h2>
+
+                    <ul class="skills_lista">
+                        <p class="sobre-mi-p">Mi nombre es Santiago, soy alumno de Henry. <br> 
+                                            Amo la programación, algunas de las cosas que <br> 
+                                            mas me gustan son la música, las matemáticas, <br> 
+                                            salir a caminar, y mirar series.</p>
+                    </ul>
+                </div>
+                <div class="img-sobre-mi_content">
+                    <img src="img/portada3" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="section tecnologias" id="tecnologias">
+            <div class="contenedor">
+                <div class="title_wrapper">
+                    <h3 class="section_title">Mis tecnologias favoritas</h3>
+                    <img src="asset/title-shap.png" class="title_shape" alt="">
+                </div>
+
+                <ul class="tecnologias_lista grid">
+                    <li class="tecnologias_item">
+                        <div class="tecnologias_card">
+                            <div class="tecnologias_content">
+                                <h3 class="tecnologias_title">
+                                    HTML5
+                                </h3>
+
+                                <img class="tecn-img-a" src="img/HTML5_logo.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tecnologias_item">
+                        <div class="tecnologias_card">
+                            <div class="tecnologias_content">
+                                <h3 class="tecnologias_title">
+                                    CSS3
+                                </h3>
+
+                                <img class="tecn-img-b" src="img/css-logo.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li class="tecnologias_item">
+                        <div class="tecnologias_card">
+                            <div class="tecnologias_content">
+                                <h3 class="tecnologias_title">
+                                    JavaScript
+                                </h3>
+
+                                <img class="tecn-img-c" src="img/JavaScript-Logo.png" alt="">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="section actividades" id="actividades">
+            <div class="contenedor">
+
+                <div class="title_wrapper">
+                    <h3 class="section_title"> actividades</h3>
+                    <img src="asset/title-shap.png" alt="" class="title_shape">
+                </div>
+                <div class="actividades_lista grid">
+
+                    <input type="text" name="text" class="input" pattern="\d+" placeholder="Titulo">
+
+                    <input type="text" name="text" class="input" pattern="\d+" placeholder="Descripcion">
+
+                    <input type="text" name="text" class="input" pattern="\d+" placeholder="Url de la Imagen">
+
+                    <button class="env-button"s>Enviar</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="count">
+            <div class="contenedor">
+                <div class="count_content">
+                    <div class="count_wrapper">
+                        <h3><span class="counter" data-counter="47"></span>+</h3>
+                        <h4 class="count_desc"> Actividad Nº 1</h4>
+                    </div>
+                    <div class="count_wrapper">
+                        <h3><span class="counter" data-counter="43"></span>+</h3>
+                        <h4 class="count_desc"> Actividad Nº 2</h4>
+                    </div>
+                    <div class="count_wrapper">
+                        <h3><span class="counter" data-counter="56"></span>+</h3>
+                        <h4 class="count_desc">Actividad Nº 3</h4>
+                    </div>
+                    <div class="count_wrapper">
+                        <h3><span class="counter" data-counter="97"></span>+</h3>
+                        <h4 class="count_desc">Actividad Nº 4</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <p class="copyright">Copyright &copy; Santiago Cabral todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <a href="#top" class="btn-top">
+        <i class='bx bx-up-arrow-alt' ></i>
+    </a>
+
+    <script src="scripts/index.js"></script>
 </body>
 </html>
