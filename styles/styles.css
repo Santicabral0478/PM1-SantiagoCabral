@@ -295,6 +295,26 @@ h6{
     cursor: pointer;
 }
 
+.actividad-card{
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#actividades-container {
+    background: #939393;
+    margin-left: 7rem;
+    margin-top: 5rem;
+    padding: 2rem;
+    width: 13rem;
+    border-radius: 16px;
+}
+
+.actividad-card img{
+    width: 100%;
+}
+
 .input {
     padding: 12px;
     border: none;
@@ -340,40 +360,6 @@ h6{
     color: #fff;
     cursor: pointer;
   }
-
-/* COUNT */
-
-.count{
-    background-image: url("../asset/counter_banner.jpg");
-    background-size: cover;
-    background-position: center center;
-    padding: 125px 0 130px;
-}
-
-.count_content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 45px;
-    text-align: center;
-}
-
-.count_wrapper h3{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-    font-size: 40px;
-    font-weight: 700;
-    color: #2c2c2c;
-}
-
-.count_desc{
-    color: #2c2c2c;
-    font-weight: 400;
-    font-size: 16px;
-}
 
 /* FOOTER */
 

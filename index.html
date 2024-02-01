@@ -43,9 +43,10 @@
                     </h2>
 
                     <ul class="skills_lista">
-                        <p class="sobre-mi-p">Mi nombre es Santiago, soy alumno de Henry. <br> 
+                        <p class="sobre-mi-p">Mi nombre es Santiago, soy tecnico en informatica, <br> 
+                                            y alumno de Henry. <br> 
                                             Amo la programación, algunas de las cosas que <br> 
-                                            mas me gustan son la música, las matemáticas, <br> 
+                                            mas me gustan son: la música, las matemáticas, <br> 
                                             salir a caminar, y mirar series.</p>
                     </ul>
                 </div>
@@ -102,46 +103,19 @@
 
         <section class="section actividades" id="actividades">
             <div class="contenedor">
-
                 <div class="title_wrapper">
-                    <h3 class="section_title"> actividades</h3>
-                    <img src="asset/title-shap.png" alt="" class="title_shape">
+                    <h3 class="section_title">Actividades</h3>
                 </div>
                 <div class="actividades_lista grid">
-
-                    <input type="text" name="text" class="input" pattern="\d+" placeholder="Titulo">
-
-                    <input type="text" name="text" class="input" pattern="\d+" placeholder="Descripcion">
-
-                    <input type="text" name="text" class="input" pattern="\d+" placeholder="Url de la Imagen">
-
-                    <button class="env-button"s>Enviar</button>
+                    <input type="text" id="titulo" class="input" pattern="\d+" placeholder="Titulo">
+                    <input type="text" id="descripcion" class="input" pattern="\d+" placeholder="Descripcion">
+                    <input type="text" id="url-imagen" class="input" pattern="\d+" placeholder="Url de la Imagen">
+                    <button class="env-button">Enviar</button>
                 </div>
             </div>
         </section>
-
-        <section class="count">
-            <div class="contenedor">
-                <div class="count_content">
-                    <div class="count_wrapper">
-                        <h3><span class="counter" data-counter="47"></span>+</h3>
-                        <h4 class="count_desc"> Actividad Nº 1</h4>
-                    </div>
-                    <div class="count_wrapper">
-                        <h3><span class="counter" data-counter="43"></span>+</h3>
-                        <h4 class="count_desc"> Actividad Nº 2</h4>
-                    </div>
-                    <div class="count_wrapper">
-                        <h3><span class="counter" data-counter="56"></span>+</h3>
-                        <h4 class="count_desc">Actividad Nº 3</h4>
-                    </div>
-                    <div class="count_wrapper">
-                        <h3><span class="counter" data-counter="97"></span>+</h3>
-                        <h4 class="count_desc">Actividad Nº 4</h4>
-                    </div>
-                </div>
-            </div>
-        </section>
+    
+        <div id="actividades-container"></div>
     </main>
 
     <footer class="footer">
@@ -154,6 +128,7 @@
         <i class='bx bx-up-arrow-alt' ></i>
     </a>
 
-    <script src="scripts/index.js"></script>
+    <script src="scripts/index.js" defer></script>
+
 </body>
 </html>
