@@ -1,4 +1,4 @@
-// Clase Activity
+// La clase Activity
 class Activity {
     constructor(title, description, imgUrl) {
         this.id = Activity.getNextId();
@@ -17,7 +17,7 @@ class Activity {
     }
 }
 
-// Clase Repository
+//La clase Repository
 class Repository {
     constructor() {
         this.activities = [];
@@ -37,7 +37,7 @@ class Repository {
     }
 }
 
-// Crear una instancia de la clase Repository
+// Creando una instancia de la clase Repository
 const activityRepository = new Repository();
 
 function convertirActivityAElementoHTML(activity) {
